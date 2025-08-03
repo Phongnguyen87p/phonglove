@@ -1,0 +1,3 @@
+Echo "# xin chao GitHub" > Readme.md
+Git add Readme.md
+tao nhieu commits va trai nghiem
