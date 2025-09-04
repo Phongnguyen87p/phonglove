@@ -1,0 +1,31 @@
+Here’s a detailed diagram that illustrates the architecture of the Zama Protocol, focusing on its MPC-based key management, coprocessors, gateways, and encrypted transfers.
+
+What Is the Zama Protocol?
+
+The Zama Protocol is a cross-chain confidentiality layer designed to enable fully confidential smart contracts on existing blockchains like Ethereum (and soon Solana), leveraging Fully Homomorphic Encryption (FHE) to keep data encrypted even while being processed .
+
+Developers can write contracts in familiar languages—like Solidity or Python—without needing deep cryptographic expertise .
+
+
+Core Components & Technologies
+
+FHE Coprocessors: These offload encrypted computations, allowing the network to process data without ever decrypting it .
+
+Threshold Decryption & MPC (Multi-Party Computation): Keys are split among multiple operators—no single entity can decrypt, and permissions are enforced programmatically .
+
+Gateway (Optimistic Rollup): Orchestrates operations—such as encrypted input verification and bridging—via smart contracts deployed on a dedicated rollup (e.g., Arbitrum-based) .
+
+Proof-of-Stake: Operators (coprocessors and KMS nodes) stake the native $ZAMA token to participate and earn rewards, with slashing penalties for misconduct .
+
+
+Performance & Scalability Roadmap
+
+Current Throughput: ~20 transactions per second (tps) per blockchain  increasing with parallel FHE operations .
+
+Hardware-Driven Scaling:
+
+GPU acceleration → ~50–100 TPS
+
+FPGA (open-source) → ~500–1,000 TPS
+
+ASIC acceleration → 10,000+ TPS per chain .
