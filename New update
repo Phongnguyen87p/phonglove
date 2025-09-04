@@ -1,0 +1,29 @@
+
+Performance & Scalability Roadmap
+
+Current Throughput: ~20 transactions per second (tps) per blockchain  increasing with parallel FHE operations .
+
+Hardware-Driven Scaling:
+
+GPU acceleration → ~50–100 TPS
+
+FPGA (open-source) → ~500–1,000 TPS
+
+ASIC acceleration → 10,000+ TPS per chain .
+
+
+Roadmap & Ecosystem
+
+Public Testnet launched: July 1, 2025 .
+
+Ethereum Mainnet: Targeted for Q4 2025, initially permissioned .
+
+Token Generation Event (TGE): End of 2025, alongside support expansion to other EVM chains .
+
+Solana Support: Expected in 2026 .
+
+
+
+Use Cases & Applications
+
+DeFi & Finance: Confidential payments, private stablecoin issuance, tokenization, and regulatory compliance .
